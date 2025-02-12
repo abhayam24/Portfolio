@@ -1,0 +1,243 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.name-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f9f9f9;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change to desired hover color */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px); /* Adjust as needed */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow effect */
+}
+
+/* section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+} */
+
+section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* About Page styles */
+.about-info {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-info h3 {
+    margin-top: 20px;
+}
+
+.about-info ul {
+    margin-bottom: 20px;
+}
+
+.about-info ul li {
+    margin-bottom: 10px;
+}
+
+/* Portfolio Page styles */
+.project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Adjust as needed */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow effect */
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Contact Page styles */
+.contact-form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: #555; /* Change focus color */
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555; /* Change hover color */
+}
+
+#form-message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+#social {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#social:hover {
+    transform: translateY(-5px); /* Adjust as needed */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow effect */
+}
+
+#social h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.social-links ul {
+    list-style-type: none;
+}
+
+.social-links ul li {
+    margin-bottom: 10px;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-links ul li a:hover {
+    color: #ffd700; /* Change to desired hover color */
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
